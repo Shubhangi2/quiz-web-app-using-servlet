@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .container{
+                display: flex;
+                flex-direction: column;
+                justify-content:center;
+                align-items:center;
+               
+            }
+            
+            .question{
+                margin-top: 8px;
+                border: 2px solid grey;
+                padding:10px 10px 10px 20px;
+                border-radius: 18px;
+                display: flex;
+                flex-direction: column;
+                justify-content:center;
+                align-items:center;
+                
+            }
+            input{
+                margin: 4px 15px 4px  2px;
+                padding: 4px;
+               
+            }
+            
+            h4{
+                color: blue;
+                text-align: center;
+            }
+            
+            button{
+                border-radius : 18px;
+                padding: 4px 20px 4px 20px;
+                margin:4px;
+                font-size: 18px;
+                border: 2px solid black;
+            }
+        </style>
+    </head>
+  
+    <body>
+        <div>
+            <form method="get" action="quiz">
+                <div class="container">
+                    <div class="question">
+                        <h4>who invented c language?</h4>
+                        <div>
+                            Charles Babbage<input type="radio" name="q1" value="Charles Babbage" /> 
+                            Grahembbel<input type="radio" name="q1" value="Grahembbel" />
+                            Dennis Ritche<input type="radio" name="q1" value="Dennis Ritche" />
+                            Steve Jobs<input type="radio" name="q1" value="Steve Jobs" />
+                        </div>
+                    </div>
+                    <div class="question">
+                        <h4>1 byte equals to how many bits?</h4>
+                        <div>
+                            4<input type="radio" name="q2" value="4" /> 
+                            8<input type="radio" name="q2" value="8" />
+                            12<input type="radio" name="q2" value="12" />
+                            16<input type="radio" name="q2" value="16" />
+                        </div>
+                    </div>
+                    <div class="question">
+                        <h4>Which is not the color of rainbow?</h4>
+                        <div>
+                            Violet<input type="radio" name="q3" value="violet" /> 
+                            yellow<input type="radio" name="q3" value="yellow" />
+                            blue<input type="radio" name="q3" value="blue" />
+                            black<input type="radio" name="q3" value="black" />
+                        </div>
+                    </div>
+                    <div class="question">
+                        <h4>Current year ?</h4>
+                        <div>
+                            2019<input type="radio" name="q4" value="2019" /> 
+                            2020<input type="radio" name="q4" value="2020" />
+                            2023<input type="radio" name="q4" value="2023" />
+                            2022<input type="radio" name="q4" value="2022" />
+                        </div>
+                    </div>
+                    <div class="question">
+                        <h4> A sequence of instructions in a computer language to get the desired result is known as :</h4>
+                        <div>
+                            Algorithm<input type="radio" name="q5" value="Algorithm" /> 
+                            Descision Table<input type="radio" name="q5" value="Descision Table" />
+                            Program<input type="radio" name="q5" value="Program" />
+                            None of above<input type="radio" name="q5" value="None of above" />
+                        </div>
+                    </div>
+                    
+                    <button type="submit">Submit</button>
+                    
+                </div>
+                
+            </form>
+            
+        </div>
+    </body>
+</html>
